@@ -29,7 +29,7 @@ export class ApiClient {
 
 
   async getEvents() {
-    const dataRes = await axios.get("http://localhost:3001/", {
+    const dataRes = await axios.get("https://tda-group-events.onrender.com", {
       headers: {
         authorization: this.tokenProvider(),
       },
@@ -46,7 +46,7 @@ export class ApiClient {
       'Content-Type': 'application/json',
     };
     const data = { title, dateAndTime, location, description, image };
-    const dataRes = await axios.post('http://localhost:3001/', data, { headers });
+    const dataRes = await axios.post('https://tda-group-events.onrender.com', data, { headers });
     ;
     return dataRes;
   }
