@@ -25,6 +25,7 @@ const Login = () => {
             <input className="border-2 rounded-md w-56 my-4 px-2" type="text" placeholder="email" onChange={(e) => setEmail(e.target.value)} />
             <input className="border-2 rounded-md w-56 my-4 px-2" type="password" placeholder="Password" onChange={(e) => setPassword(e.target.value)} />
             <button className="bg-blue-400 rounded-md w-20 text-white" type='submit'>Login</button>
+            <p className='text-slate-400 italic'>Why not try username: "bob@bob.com" password: 123</p>
         </form>
     </div>
   )
