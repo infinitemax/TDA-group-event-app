@@ -40,8 +40,8 @@ const Login = () => {
         >
           Login
         </button>
-        <p className="text-slate-400 italic">
-          Why not try username: "bob@bob.com" password: 123
+        <p className="text-slate-400 italic mt-4">
+          Why not try username: bob@bob.com password: 123
         </p>
       </form>
     </div>
