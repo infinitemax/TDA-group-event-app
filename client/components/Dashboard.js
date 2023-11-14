@@ -36,7 +36,7 @@ const Dashboard = (props) => {
       <div className="px-8 pt-8 pb-4 mb-8 text-gray-700 bg-white shadow-md relative">
         <h1 className="mb-2 text-3xl font-semibold">What's on in Town?</h1>
         <p className="text-lg">Here is what's happening...</p>
-        <a href="http://localhost:3000/add-event">
+        <a href="/add-event">
           <button className="px-4 py-2 mt-2 text-white bg-gray-600 rounded-md hover:bg-gray-700">Add an event</button>
         </a>
         <button className="px-4 py-2 mt-2 text-white bg-blue-600 rounded-md hover:bg-gray-700 relative left-12" onClick={props.logout}>Logout</button>
