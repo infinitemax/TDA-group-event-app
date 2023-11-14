@@ -29,7 +29,7 @@ export default function Home() {
     <main>
 
       {!token && <a href="/login">
-        <h1 className="text-4xl font-bold text-center mt-48">Login</h1>
+        <h1 className="text-4xl font-bold text-center mt-48">Login here</h1>
       </a>}
       {token && <Dashboard client={client} logout={logout} />}
       {/* <Logout /> */}
